@@ -1,15 +1,17 @@
-# Dynamic English (V3 completo)
+# Dynamic English (V3 listo para Vercel)
 
-- A2 y B1 completos (inglés general)
-- Pronunciación: TTS (🔊) y STT básico (🎤) con puntaje
-- Branding: Dynamic English + logo
-- Footer: "Hecho por Dinamita Apps"
+- React + Vite + Tailwind
+- A2 y B1 completos
+- TTS (🔊) y STT (🎤) básico
+- vercel.json incluido (build y dist)
+- Node 20 en package.json engines
 
 ## Desarrollo
 npm i
 npm run dev
 
-## Build / Vercel
-Framework: Vite
-Build: npm run build
-Output: dist
+## Deploy en Vercel
+- Importa el repo
+- Framework: Vite
+- Build: npm run build
+- Output: dist
